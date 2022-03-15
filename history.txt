@@ -1,0 +1,55 @@
+  632  mkdir git-majonez
+  633  ls
+  634  cd git-majonez/
+  635  git init 
+  636  ls -a
+  637  touch main.cpp
+  638  vim main.cpp 
+  639  cat main.cpp 
+  640  git status
+  641  git add .
+  642  git status
+  643  git commit -m"Initial commit"
+  644  git log
+  645  vim main.cpp 
+  646  cat main.cpp 
+  647  git status 
+  648  git add .
+  649  git status
+  650  git commit -m"Farewell changed"
+  651  git log 
+  652  git log --pretty=oneline
+  653  git remote add origin https://github.com/Sl0mek/git-majonez.git
+  654  git branch
+  655* 
+  656  git push -u origin master
+  657  git branch cs
+  658  git branch
+  659  git checkout cs
+  660  git reflog
+  661  git reset a488d13
+  662  git log --pretty=oneline
+  663  git status
+  664  vim main.cpp
+  665  cat main.cpp 
+  666  git commit -m"Greetings"
+  667  git log --pretty=oneline
+  668  git add .
+  669  git commit -m"Greetings"
+  670  git log --pretty=oneline
+  671  git checkout master 
+  672  git log --pretty=oneline
+  673  git checkout cs
+  674  git push origin cs
+  675  git checkout master 
+  676  cat main.cpp 
+  677  git merge cs
+  678  git status
+  679  vim main.cpp 
+  680  git commit
+  681  vim main.cpp 
+  682  git add .
+  683  git status
+  684  git commit
+  685  history
+  686  history | tail -n 55 > history.txt
